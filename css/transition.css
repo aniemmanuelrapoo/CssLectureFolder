@@ -9,10 +9,24 @@ body{
   position: relative;
   margin: auto;
   top: 200px;
+  /* to select property */
+  /* transition-property: background-color, border-radius, transform; */
+
+  /* you can do all at once */
+  transition-property: all;
+  
+  /* time for effect to work */
+  transition-duration: 1s;
+  /* transition-delay: 2s; */
+
+  /* many timeing function easyIn easeOut linear etc */
+  transition-timing-function: ease-in;
 }
 
 .box:hover{
   background-color: red;
+  border-radius: 50%;
+  transform: rotateY(180deg );
 }
 
 /* 
