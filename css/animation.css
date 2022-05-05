@@ -6,8 +6,37 @@ body{
   width: 200px;
   height: 200px;
   position: relative;
+
+  /* animation name */
   animation-name: myanimation;
+
+  /* //time to run */
   animation-duration: 4s;
+
+  /* amount of time to run */
+  animation-iteration-count: 1;
+
+  /* delay before start */
+  animation-delay: 2s;
+
+  /* move clock and antiClock wise */
+  /* animation-direction: alternate; */
+
+  /* move only in the reversed way clock wise only */
+  /* animation-direction: reverse; */
+
+  /* different timing speed */
+  /* the same speed all round to move */
+  /* animation-timing-function: linear; */
+  /* fast in the ending move */
+  /* animation-timing-function: ease-in; */
+  /* fast in the begining move */
+  /* animation-timing-function: ease-out; */
+  /* default */
+  /* animation-timing-function: ease-in-out; */
+
+  /* makes it stay circle */
+  animation-fill-mode: forwards;
 }
 @keyframes myanimation {
   0% {background-color: white; left: 0px; top: 0px; border-radius: 0 0 0 0;}
