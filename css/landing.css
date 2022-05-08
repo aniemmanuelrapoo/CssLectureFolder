@@ -57,7 +57,6 @@ body{
   animation-duration: 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
-
   transition-property: transform;
   transition-duration: 1s;
 }
